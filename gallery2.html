@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gellery2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="men.css">
+    <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="card.css">
+     <!--linking swiper css-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+</head>
+<body>
+    <header>
+
+        <nav class="navbar section-content">
+            <a href="index.html" class="nav-logo d-flex">
+                <img src="" class="me-3" alt="">
+                <h3 class="text-white mt-4">Shoes</h3>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>                    </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about-menu d-flex justify-content-center">
+            <a href="index.html"><h5 class="section-title">Home</h5></a>
+            <a href=""><h5 class="section-title">Gallery</h5></a>
+        </div>
+        <div class="section-content ">  
+            <ul class="menu-list" >
+                <li class="product-item mb5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/af/f3/5b/aff35b99a62486ed3de94660cfa704ee.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+                <li class="product-item mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/42/6b/9b/426b9b814e68f679857c26a519b94e76.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+                <li class="product-item mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/39/ea/4a/39ea4a14d8448c064a6e118afd89c44a.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+                <li class="product-item mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/2d/8f/1f/2d8f1feea60e03b7d50c1b218670f188.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+                <li class="product-item mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/bc/3d/9f/bc3d9f705778abec0b66faf81c2f8b9d.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+                <li class="product-item mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/d7/91/3f/d7913f5fd47a81d8c991fc9970ec3eb9.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+                <li class="product-item mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/e7/7c/02/e77c020648e6a0a73f2df7ee2f7b47de.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+                <li class="product-item mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/a0/38/9c/a0389c75d75b27301e0ac88336b905de.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+                <li class="product-item mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/10/94/77/109477b6a05b49fd516d139335629df6.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+                <li class="product-item mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/64/18/79/64187981b389272645f871a89c22c706.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+                <li class="product-item mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/b6/eb/cc/b6ebccde86b4364f11a705b4cc37d0eb.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+                <li class="product-item mb-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <img src="https://i.pinimg.com/736x/34/29/86/3429862a8cd82ad82b0e71a517d00c55.jpg" class="mb-3" alt="">
+                    <h3 class="name">Shoes</h3>
+                    <div class="price mb-2">
+                            <span class="discount ">$25.56</span> &emsp; 
+                            <span class="original">$40.43</span>
+                        </div>
+                    <p class="text">Lorem ipsum dolor sit amet.</p>
+                    <button class="add-to-cart text-white">Add to Cart 🛒</button>
+                </li>
+            </ul>
+        </div>  
+        
+        <!--footer section-->
+        <footer class="footer-section mt-9">
+            <div class="container">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>Phnom penh</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>0889540268</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>sreyneath22221111@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="../image/sreyneath_logo_no_bg.png" class="img-fluid" alt="logo" ></a>
+                                </div>
+                                <div class="footer-text">
+                                    <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                    elit,Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <span>Follow us</span>
+                                    <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">Menu</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Galler</a></li>
+                                    <li><a href="#">My Team</a></li>
+                                    <li><a href="#">Expert Team</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#">Latest News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2025, All Right Reserved <a href="https://codepen.io/anupkumar92/">Soy Sreyneath</a></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Menu</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">Galler</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">My Team</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Policy</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+     <!-- Product Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="product-gallery">
+                                <div class="main-image mb-3">
+                                    <img id="mainProductImage" src="https://i.pinimg.com/736x/af/f3/5b/aff35b99a62486ed3de94660cfa704ee.jpg" class="img-fluid" alt="Product">
+                                </div>
+                                <div class="thumbnail-images row g-2">
+                                    <div class="col-6 col-md-1">
+                                        <img src="https://i.pinimg.com/736x/af/f3/5b/aff35b99a62486ed3de94660cfa704ee.jpg" class="img-thumbnail active" onclick="changeImage(this)" alt="Thumbnail 1">
+                                    </div>
+                                    <div class="col-6 col-md-1">
+                                        <img src="https://i.pinimg.com/736x/42/6b/9b/426b9b814e68f679857c26a519b94e76.jpg" class="img-thumbnail" onclick="changeImage(this)" alt="Thumbnail 2">
+                                    </div>
+                                    <div class="col-6 col-md-1">
+                                        <img src="https://i.pinimg.com/736x/39/ea/4a/39ea4a14d8448c064a6e118afd89c44a.jpg" class="img-thumbnail" onclick="changeImage(this)" alt="Thumbnail 3">
+                                    </div>
+                                    <div class="col-6 col-md-1">
+                                        <img src="https://i.pinimg.com/736x/2d/8f/1f/2d8f1feea60e03b7d50c1b218670f188.jpg" class="img-thumbnail" onclick="changeImage(this)" alt="Thumbnail 4">
+                                    </div>
+                                    <div class="col-6 col-md-1">
+                                        <img src="https://i.pinimg.com/736x/bc/3d/9f/bc3d9f705778abec0b66faf81c2f8b9d.jpg" class="img-thumbnail" onclick="changeImage(this)" alt="Thumbnail 3">
+                                    </div>
+                                    <div class="col-6 col-md-1">
+                                        <img src="https://i.pinimg.com/736x/bc/3d/9f/bc3d9f705778abec0b66faf81c2f8b9d.jpg" class="img-thumbnail" onclick="changeImage(this)" alt="Thumbnail 4">
+                                    </div>
+
+
+                                    <div class="col-6 col-md-1">
+                                        <img src="https://i.pinimg.com/736x/e7/7c/02/e77c020648e6a0a73f2df7ee2f7b47de.jpg" class="img-thumbnail active" onclick="changeImage(this)" alt="Thumbnail 1">
+                                    </div>
+                                    <div class="col-6 col-md-1">
+                                        <img src="https://i.pinimg.com/736x/a0/38/9c/a0389c75d75b27301e0ac88336b905de.jpg" class="img-thumbnail" onclick="changeImage(this)" alt="Thumbnail 2">
+                                    </div>
+                                    <div class="col-6 col-md-1">
+                                        <img src="https://i.pinimg.com/736x/10/94/77/109477b6a05b49fd516d139335629df6.jpg" class="img-thumbnail" onclick="changeImage(this)" alt="Thumbnail 3">
+                                    </div>
+                                    <div class="col-6 col-md-1">
+                                        <img src="https://i.pinimg.com/736x/64/18/79/64187981b389272645f871a89c22c706.jpg" class="img-thumbnail" onclick="changeImage(this)" alt="Thumbnail 4">
+                                    </div>
+                                    <div class="col-6 col-md-1">
+                                        <img src="https://i.pinimg.com/736x/b6/eb/cc/b6ebccde86b4364f11a705b4cc37d0eb.jpg" class="img-thumbnail" onclick="changeImage(this)" alt="Thumbnail 3">
+                                    </div>
+                                    <div class="col-6 col-md-1">
+                                        <img src="ttps://i.pinimg.com/736x/34/29/86/3429862a8cd82ad82b0e71a517d00c55.jpg" class="img-thumbnail" onclick="changeImage(this)" alt="Thumbnail 4">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Hot Beverage</h2>
+                            <div class="price mb-3">
+                                <span class="current-price text-primary">After Discount: $49.99</span><br>
+                                <span class="original-price">Original-price: $79.99</span><br>
+                                <span class="discount-badge">Discount: 30%</span>
+                            </div>
+                            <div class="rating mb-3">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                                <span class="ms-2">(42 reviews)</span>
+                            </div>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            
+                            <div class="size-selector mb-4">
+                                <h6>Size</h6>
+                                <div class="btn-group" role="group">
+                                    <input type="radio" class="btn-check" name="size" id="size-s" autocomplete="off" checked>
+                                    <label class="btn btn-outline-dark" for="size-s">37</label>
+                                    
+                                    <input type="radio" class="btn-check" name="size" id="size-m" autocomplete="off">
+                                    <label class="btn btn-outline-dark" for="size-m">38</label>
+                                    
+                                    <input type="radio" class="btn-check" name="size" id="size-l" autocomplete="off">
+                                    <label class="btn btn-outline-dark" for="size-l">39</label>
+                                    
+                                    <input type="radio" class="btn-check" name="size" id="size-xl" autocomplete="off">
+                                    <label class="btn btn-outline-dark" for="size-xl">40</label>
+                                </div>
+                            </div>
+                            
+                            <div class="quantity-selector mb-4">
+                                <h6>Quantity</h6>
+                                <div class="input-group ms-2" style="width: 150px; ">
+                                    <button class="btn btn-outline-dark" type="button" onclick="decreaseQuantity()">-</button>
+                                    <input type="text" class="form-control text-center" value="1" id="quantityInput">
+                                    <button class="btn btn-outline-dark" type="button" onclick="increaseQuantity()">+</button>
+                                </div>
+                            </div>
+                            
+                            <div class="d-grid gap-2 d-md-flex">
+                                <button id="modalAddToCart" class="btn btn-dark btn-lg me-md-2">
+                                    <i class="fas fa-shopping-cart me-2"></i> Add to Cart
+                                </button>
+                                <button class="btn btn-outline-dark btn-lg">
+                                    <i class="fas fa-heart me-2"></i> Check Out
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Icon -->
+    <div id="cart-icon">
+    🛒 <span id="cart-count">0</span>
+    </div>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="hidden">
+        <div class="cart-content">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items">
+            </ul>
+            <p>Total: $<span id="cart-total">0</span></p>
+            <button id="checkout-btn">Check Out</button>
+            <button id="close-cart">Close</button>
+        </div>
+    </div>
+        
+       
+    <!--linking swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="card.js"></script>
+</body>
+</html>
